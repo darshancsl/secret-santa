@@ -1,0 +1,26 @@
+.login {
+  padding: 30px;
+}
+
+input {
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin: 15px;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #17c531;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #2aa53c;
+}

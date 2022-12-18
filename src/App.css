@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  padding: 100px;
+  background: rgb(162, 24, 226);
+  background: linear-gradient(
+    315deg,
+    rgba(162, 24, 226, 1) 0%,
+    rgba(18, 195, 94, 1) 100%
+  );
+  min-height: 100vh;
+  color: #fff;
+}
+
+/* Flex */
+
+.d-flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .App {
+    padding: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+    padding: 20px 15px;
+  }
+  .d-block-md {
+    display: block;
+  }
+}

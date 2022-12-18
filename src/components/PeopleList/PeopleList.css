@@ -1,0 +1,78 @@
+.input-element .main-list {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.input-element input {
+  padding: 10px 15px;
+  margin: 15px;
+  border: 1px solid #999;
+  border-radius: 10px;
+}
+
+.input-element input:focus {
+  outline: none;
+  border: 1px solid #333;
+}
+
+ul {
+  padding: 30px;
+  box-shadow: 0 0 6px #ccc;
+  max-width: 700px;
+  margin: 30px auto;
+}
+
+li .id {
+  font-weight: bold;
+  color: #fff;
+}
+
+li .item {
+  margin: 10px;
+  color: #fff;
+}
+
+.input-element button {
+  border: none;
+  cursor: pointer;
+  background-color: rgb(225, 76, 42);
+  color: #fff;
+  border-radius: 5px;
+}
+
+.input-element button:hover {
+  background-color: rgb(169, 68, 45);
+}
+
+.form-element input {
+  padding: 10px 15px;
+  margin: 15px;
+  border: 1px solid #999;
+  border-radius: 10px;
+}
+
+.form-element input:focus {
+  outline: none;
+  border: 1px solid #333;
+}
+
+.add-btn,
+.submit-btn {
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  margin: 10px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #17c531;
+}
+
+@media only screen and (max-width: 600px) {
+  .input-element input {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+}
